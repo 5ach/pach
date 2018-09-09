@@ -17,6 +17,7 @@
 <TD align=left>куклоёб в треде - мать в подъезде</TD> 
 </TR>
 <form action="" method="post">
+<label> Name: <br><input type="text" name="name"><br></label>
 <label> Message: <br><textarea cols="35" rows="5" name="mes"></textarea></label><br>
 <input type="submit" name="post" value="Post">
 </form>
@@ -24,6 +25,7 @@
 
 <?php
 
+$name = $_POST["name"];
 $text = $_POST["mes"];
 $post = $_POST["post"];
 
